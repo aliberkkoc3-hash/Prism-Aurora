@@ -1,0 +1,28 @@
+{
+  "name": "prism-aurora",
+  "displayName": "Prism Aurora",
+  "description": "Kuzey ışıklarından ve serin turkuaz vurgulardan esinlenilmiş, okyanusun derinlikleri kadar koyu bir VS Code teması.",
+  "version": "0.0.1",
+  "publisher": "PrismCrew",
+  "license": "MIT",
+  "engines": { "vscode": "^1.80.0" },
+  "categories": ["Themes"],
+  "keywords": ["theme", "dark", "aurora", "turquoise", "prism", "prism-crew"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aliberkkoc3-hash/Prism-Aurora.git"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Prism Aurora",
+        "uiTheme": "vs-dark",
+        "path": "./themes/prism-aurora-color-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "package": "vsce package",
+    "check": "vsce ls"
+  }
+}
